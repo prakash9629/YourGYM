@@ -118,11 +118,11 @@ const Booking = () => {
                     <Send size={20} className={cn(isRTL && "rotate-180")} />
                   </div>
                   <CopyableEmail 
-                    email="hello@fitnesszone.dz" 
+                    email="hello@yourgym.dz" 
                     className="min-w-0 flex-grow"
                   >
                     <div className="text-[10px] font-bold uppercase text-gray-500 tracking-widest">{t('booking.emailUs')}</div>
-                    <div className="font-bold text-sm md:text-base text-[#0A0A0A] dark:text-white truncate block">hello@fitnesszone.dz</div>
+                    <div className="font-bold text-sm md:text-base text-[#0A0A0A] dark:text-white truncate block">hello@yourgym.dz</div>
                   </CopyableEmail>
                 </div>
                 <div className="flex items-center gap-4 bg-gray-50 dark:bg-white/5 p-4 rounded-2xl">

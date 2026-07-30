@@ -80,7 +80,7 @@ const Footer = () => {
                 <img src={`${import.meta.env.BASE_URL}logo.jpg`} alt={t('footer.logoAlt')} className="w-full h-full object-cover" />
               </div>
               <span className="font-bold text-2xl tracking-tighter">
-                FITNESS<span className="text-brand">ZONE</span>
+                YOUR<span className="text-brand">GYM</span>
               </span>
             </div>
             <p className="text-gray-600 dark:text-gray-500 text-sm leading-relaxed">

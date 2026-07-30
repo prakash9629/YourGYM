@@ -94,7 +94,7 @@ const LanguageSelector = () => {
             </div>
 
             <div className="mt-8 pt-6 border-t border-white/5 flex items-center justify-center gap-3 text-gray-600">
-              <span className="text-[9px] font-bold uppercase tracking-[0.3em]">Fitness Zone · Elite</span>
+              <span className="text-[9px] font-bold uppercase tracking-[0.3em]">Your Gym · Elite</span>
             </div>
           </motion.div>
         </motion.div>

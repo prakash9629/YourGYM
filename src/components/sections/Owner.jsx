@@ -118,7 +118,7 @@ const Owner = () => {
                   </div>
                   <div className="min-w-0 text-start">
                     <div className="text-[10px] font-bold uppercase text-gray-500 tracking-widest">{t('owner.email')}</div>
-                    <div className="font-bold text-[#0A0A0A] dark:text-white truncate">kamel@fitnesszone.dz</div>
+                    <div className="font-bold text-[#0A0A0A] dark:text-white truncate">own.yourgym.dz</div>
                   </div>
                 </CopyableEmail>
               </div>
