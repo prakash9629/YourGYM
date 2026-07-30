@@ -62,21 +62,21 @@ const Hero = () => {
 
   const slides = [
     {
-      image: `${import.meta.env.BASE_URL}coverOne.png.jpg`,
+      image: `${import.meta.env.BASE_URL}coverOne.png`,
       title: t('hero.slide1.title'),
       highlight: t('hero.slide1.highlight'),
       quote: t('hero.slide1.quote'),
       author: t('hero.slide1.author')
     },
     {
-      image: `${import.meta.env.BASE_URL}coverTwo.png.jpg`,
+      image: `${import.meta.env.BASE_URL}coverTwo.png`,
       title: t('hero.slide2.title'),
       highlight: t('hero.slide2.highlight'),
       quote: t('hero.slide2.quote'),
       author: t('hero.slide2.author')
     },
     {
-      image: `${import.meta.env.BASE_URL}coverThree.png.jpg`,
+      image: `${import.meta.env.BASE_URL}coverThree.png`,
       title: t('hero.slide3.title'),
       highlight: t('hero.slide3.highlight'),
       quote: t('hero.slide3.quote'),
