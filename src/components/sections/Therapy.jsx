@@ -15,9 +15,9 @@ const Therapy = () => {
   ];
 
   const images = [
-    '/Hijama/3.jpg',
-    '/Hijama/2.jpg',
-    '/Hijama/1.jpg'
+    `${import.meta.env.BASE_URL}Hijama/3.jpg`,
+  `${import.meta.env.BASE_URL}Hijama/2.jpg`,
+  `${import.meta.env.BASE_URL}Hijama/1.jpg`,
   ];
 
   return (

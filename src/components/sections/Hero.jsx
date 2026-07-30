@@ -62,21 +62,21 @@ const Hero = () => {
 
   const slides = [
     {
-      image: '/coverOne.png',
+      image: `${import.meta.env.BASE_URL}coverOne.png`,
       title: t('hero.slide1.title'),
       highlight: t('hero.slide1.highlight'),
       quote: t('hero.slide1.quote'),
       author: t('hero.slide1.author')
     },
     {
-      image: '/coverTwo.png',
+      image: `${import.meta.env.BASE_URL}coverTwo.png`,
       title: t('hero.slide2.title'),
       highlight: t('hero.slide2.highlight'),
       quote: t('hero.slide2.quote'),
       author: t('hero.slide2.author')
     },
     {
-      image: '/coverThree.png.jpg',
+      image: `${import.meta.env.BASE_URL}coverThree.png.jpg`,
       title: t('hero.slide3.title'),
       highlight: t('hero.slide3.highlight'),
       quote: t('hero.slide3.quote'),
@@ -110,7 +110,7 @@ const Hero = () => {
           <div className="absolute  inset-0 bg-gradient-to-r from-[#0A0A0A] via-[#0A0A0A]/70 to-transparent z-10" />
           <div className="absolute inset-0 bg-black/40 z-10" />
           <img
-            src={slides[current].image}
+            src={`${import.meta.env.BASE_URL}${slides[current].image}`}
             alt="Hero Background"
             className="w-full h-full object-cover object-center"
           />

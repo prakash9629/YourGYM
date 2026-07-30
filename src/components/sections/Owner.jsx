@@ -58,7 +58,7 @@ const Owner = () => {
           >
             <div className="relative z-10 aspect-[4/5] rounded-[4rem] overflow-hidden border-8 border-gray-100 dark:border-white/5">
               <img
-                src="/owner.jpg"
+               src={`${import.meta.env.BASE_URL}owner.jpg`}
                 alt="Kamel Latreche"
                 className="w-full h-full object-cover"
                 onError={(e) => {
