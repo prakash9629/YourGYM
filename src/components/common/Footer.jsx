@@ -159,7 +159,7 @@ const Footer = () => {
           </div>
 
           {/* Map Teaser */}
-          <div className="space-y-6">
+          {/* <div className="space-y-6">
             <h4 className="font-black uppercase tracking-widest text-xs text-brand">{t('footer.locationTitle')}</h4>
             <div className="rounded-2xl overflow-hidden transition-all duration-700 h-40">
               <iframe
@@ -171,7 +171,7 @@ const Footer = () => {
                 loading="lazy"
               />
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="pt-16 border-t border-gray-200 dark:border-white/5 flex flex-col lg:flex-row justify-between items-center gap-12 text-center lg:text-left">
