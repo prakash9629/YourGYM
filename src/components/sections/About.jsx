@@ -46,7 +46,7 @@ const About = () => {
           >
             <div className="aspect-[4/5] rounded-[2rem] overflow-hidden shadow-2xl">
               <img
-                src="/fz.jpg"
+                  src={`${import.meta.env.BASE_URL}fz.jpg`}
                 alt="Philosophy"
                 className="w-full h-full object-cover"
                 draggable={false}

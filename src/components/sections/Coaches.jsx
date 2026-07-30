@@ -4,9 +4,9 @@ import { Camera, Send, Briefcase } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const coachImages = [
-  '/judo.jpg',
-  '/fit.jpg',
-  '/boxing.jpg'
+  `${import.meta.env.BASE_URL}judo.jpg`,
+  `${import.meta.env.BASE_URL}fit.jpg`,
+  `${import.meta.env.BASE_URL}boxing.jpg`
 ];
 
 const Coaches = () => {

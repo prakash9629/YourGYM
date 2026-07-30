@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next';
 // All 19 images from the challenges & awards folder
 const galleryImages = Array.from({ length: 19 }, (_, i) => ({
   id: i + 1,
-  src: `/chalenges & awards/${i + 1}.jpg`,
+  src: `${import.meta.env.BASE_URL}chalenges & awards/${i + 1}.jpg`,
   alt: `Challenge & Award moment ${i + 1}`,
 }));
 
