@@ -77,7 +77,7 @@ const Footer = () => {
           <div className="space-y-6">
             <div className="flex items-center gap-3">
               <div className="w-12 h-12 rounded-xl overflow-hidden border border-white/10">
-                <img src="/logo.jpg" alt={t('footer.logoAlt')} className="w-full h-full object-cover" />
+                <img src={`${import.meta.env.BASE_URL}logo.jpg`} alt={t('footer.logoAlt')} className="w-full h-full object-cover" />
               </div>
               <span className="font-bold text-2xl tracking-tighter">
                 FITNESS<span className="text-brand">ZONE</span>
@@ -178,7 +178,7 @@ const Footer = () => {
           {/* Left: Logo + Copyright */}
           <div className="flex flex-col lg:flex-row items-center gap-6 lg:gap-8">
             <div className="w-16 h-16 lg:w-14 lg:h-14 rounded-full overflow-hidden border border-white/10 bg-black shadow-2xl flex-shrink-0">
-              <img src="/footerImage.png" alt={t('footer.logoAlt')} className="w-full h-full object-cover scale-110" />
+              <img src={`${import.meta.env.BASE_URL}footerImage.png`} alt={t('footer.logoAlt')} className="w-full h-full object-cover scale-110" />
             </div>
             <div className="space-y-1" style={{ fontFamily: 'Georgia, serif' }}>
               <p className="text-gray-600 dark:text-gray-400 text-xl lg:text-lg whitespace-nowrap">

@@ -47,7 +47,7 @@ const Navbar = () => {
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-xl overflow-hidden border border-brand/20">
               {/* <img src="/logo.jpg" alt="Fitness Zone Logo" className="w-full h-full object-cover" /> */}
-               <img src="/public/logo2.webp" alt="Fitness Zone Logo" className="w-full h-full object-cover" />
+               <img src={`${import.meta.env.BASE_URL}logo2.webp`} alt="Fitness Zone Logo" className="w-full h-full object-cover" />
             </div>
             <span className="font-bold text-xl tracking-tighter text-[#0A0A0A] dark:text-white">
               YOUR<span className="text-brand">GYM</span>
