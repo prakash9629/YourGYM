@@ -39,7 +39,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <ScrollToTopOnRoute />
       <LanguageSelector />
       <main className="min-h-screen bg-background-light dark:bg-background-dark">
